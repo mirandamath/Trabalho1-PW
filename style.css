@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/GeTech.png");
+    background-repeat:repeat;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 10px 50px 50px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#logo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    color: #03CDFF;
+}
+
+.tLogo{
+    color: black;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+header h4 {
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    border-top: dotted 5px black;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    
+}
+
+.menu a:hover {
+    background-color: #0981E8;
+    color: white;
+}
+
+#esquerda {
+    float: left;
+    width: 60%;
+    padding-top: 8px;
+}
+
+#direita {
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.cards {
+    background-color: #0B3585;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.servicos {
+    display: block;
+    text-align: center;
+    
+}
+
+.cardImg {
+    height: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.cardDireita {
+    height: auto;
+    width: 100%;
+    color: #4C9CD1;
+    background-color: #F7F7F7;
+    margin-bottom: 30px;
+}
+
+.cardDireita p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+}
+
+.cardImgD {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+.unidades {
+    display: contents;
+    text-align: center;
+}
+
+.cardDireita h1 {
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: solid 3px #4C9CD1;
+}
+
+.unidades p {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.cards:hover {
+    box-shadow: 0px 10px 16px gray;
+}
+
+.cards p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.cards h1 {
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: solid 5px black;
+    padding: 10px;
+}
+
+.contato {
+    height: 350px;
+}
+
+.tabelaContato {
+    background-color: #0981E8;
+    height: 60%;
+    margin: 40px;
+    text-align: left;
+    color: black;
+    border-radius: 5%;
+    
+}
+
+.tabelaContato h2 {
+    padding: 10px;
+}
