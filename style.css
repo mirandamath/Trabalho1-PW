@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 body {
@@ -170,3 +171,4 @@ header h1 {
 .tabelaContato h2 {
     padding: 10px;
 }
+
