@@ -13,6 +13,11 @@ body {
     color: #E5DDC8;
 }
 
+#fName{
+    position: relative;
+    width: 100%;
+}
+
 #sub {
     position: relative;
     font-size: 35px;
@@ -21,7 +26,11 @@ body {
 
 .text {
     position: absolute;
+    left: 0;
+    top: 50%;
     width: 100%;
     text-align: center;
     font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    color: #E5DDC8;
 }
