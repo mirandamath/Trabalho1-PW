@@ -24,7 +24,7 @@ body {
     left: 30%;
 }
 
-.text {
+#mainText {
     position: absolute;
     left: 0;
     top: 50%;
