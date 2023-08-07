@@ -1,5 +1,5 @@
 body {
-    background-color: #004369;
+    background-color: #725AC1;
 }
 
 #intro {
@@ -10,7 +10,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: 40px;
     text-decoration: underline;
-    color: #E5DDC8;
+    color: #F7ECE1;
 }
 
 #fName{
@@ -32,5 +32,5 @@ body {
     text-align: center;
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
-    color: #E5DDC8;
+    color: #F7ECE1;
 }
